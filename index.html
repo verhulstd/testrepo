@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      h1 {
+        -webkit-mask-image: url("./icons/icons.svg#icon-library");
+        mask-image: url("./icons/icons.svg#icon-library");
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        background-color: red;
+        padding: 5px;
+        padding-left: 20px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>test</h1>
+    <svg class="icon">
+      <use href="./icons/icons.svg#icon-library" />
+    </svg>
+  </body>
+</html>
